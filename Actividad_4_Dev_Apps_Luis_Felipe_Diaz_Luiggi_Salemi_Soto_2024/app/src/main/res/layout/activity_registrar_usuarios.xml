@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_app"
+    android:orientation="vertical"
+    tools:context=".Usuarios.RegistrarUsuarios">
+
+    <ImageView
+        android:id="@+id/imageRegistrar"
+        android:layout_width="351dp"
+        android:layout_height="214dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo_cipa" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#99F8E9E9"
+            android:gravity="clip_horizontal"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/primerNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:hint="Digite su primer nombre"
+                android:inputType="text"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="18sp"
+                android:padding="18dp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/segundoNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:hint="Digite su segundo nombre"
+                android:inputType="text"
+                android:layout_margin="20dp"
+                android:padding="18dp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/primerApellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:hint="Digite su primer apellido"
+                android:inputType="text"
+                android:layout_margin="20dp"
+                android:padding="18dp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/segundoApellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:hint="Digite su segundo apellido"
+                android:inputType="text"
+                android:layout_margin="20dp"
+                android:padding="18dp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/registroCedula"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:hint="Digite numero de documento"
+                android:inputType="number"
+                android:layout_margin="20dp"
+                android:padding="18dp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/contraseñaRegistro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:hint="Digite su contraseña"
+                android:inputType="textPassword"
+                android:layout_margin="20dp"
+                android:padding="18dp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/preguntaContra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:hint="Digite su pregunta de seguridad"
+                android:inputType="text"
+                android:layout_margin="20dp"
+                android:padding="18dp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/respuestaContra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:hint="Digite su respuesta de seguridad"
+                android:inputType="text"
+                android:layout_margin="20dp"
+                android:padding="18dp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/correoElectronico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:hint="Digite su correo electronico"
+                android:inputType="textEmailAddress"
+                android:layout_margin="20dp"
+                android:padding="18dp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/telefonoUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_marginTop="18dp"
+                android:hint="Digite su telefono"
+                android:inputType="phone"
+                android:padding="18dp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/paisUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_marginTop="18dp"
+                android:hint="Digite su pais"
+                android:inputType="text"
+                android:padding="18dp" />
+
+            <Button
+                android:id="@+id/registrarse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Registrarse"
+                android:fontFamily="sans-serif-medium"
+                android:layout_marginBottom="30dp"
+                android:layout_margin="20dp"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

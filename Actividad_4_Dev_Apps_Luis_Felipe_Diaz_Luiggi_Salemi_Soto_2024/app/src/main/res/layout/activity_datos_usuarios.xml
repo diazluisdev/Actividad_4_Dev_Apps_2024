@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_app"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Usuarios.DatosUsuarios">
+
+    <ImageView
+        android:id="@+id/imageRegistrar"
+        android:layout_width="351dp"
+        android:layout_height="214dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo_cipa" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#99F8E9E9"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/VistaDatos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="Actualizar datos personales"
+                android:textColor="#0727D6"
+                android:textSize="20sp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/updatePregunta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_marginTop="18dp"
+                android:hint="Pregunta de seguridad"
+                android:inputType="text"
+                android:padding="18dp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/updateRespuesta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_marginTop="18dp"
+                android:hint="Respuesta de seguridad"
+                android:inputType="text"
+                android:padding="18dp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/updateCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_marginTop="18dp"
+                android:hint="Correo electrónico"
+                android:inputType="textEmailAddress"
+                android:padding="18dp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/updateTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_marginTop="18dp"
+                android:hint="Teléfono"
+                android:inputType="phone"
+                android:padding="18dp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/updatePais"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_marginTop="18dp"
+                android:hint="País"
+                android:inputType="text"
+                android:padding="18dp" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/updateContraseña"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_marginTop="18dp"
+                android:hint="Nueva contraseña"
+                android:inputType="textPassword"
+                android:padding="18dp" />
+
+            <Button
+                android:id="@+id/actualizarDatos"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Actualizar"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/eliminarUsuario"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Eliminar cuenta"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

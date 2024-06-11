@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "605121977744",
+    "project_id": "actividad-3-dev-app-2024",
+    "storage_bucket": "actividad-3-dev-app-2024.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605121977744:android:b400b8d0e544b03058e715",
+        "android_client_info": {
+          "package_name": "com.example.actividad_3_dev_apps_luis_felipe_diaz_luiggi_salemi_soto_2024"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASrTqMsOBdUorna7XGTtbIgPMxkjVHDiU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
